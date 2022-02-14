@@ -1,0 +1,27 @@
+{
+  "fitnessActivity": "yoga",
+  "startTime": "2022-01-13T01:12:09Z",
+  "endTime": "2022-01-13T01:29:49Z",
+  "duration": "1060s",
+  "segment": [{
+    "fitnessActivity": "yoga",
+    "startTime": "2022-01-13T01:12:09Z",
+    "endTime": "2022-01-13T01:29:49Z"
+  }],
+  "aggregate": [{
+    "metricName": "com.google.calories.expended",
+    "floatValue": 60.0
+  }, {
+    "metricName": "com.google.step_count.delta",
+    "intValue": 136
+  }, {
+    "metricName": "com.google.distance.delta",
+    "floatValue": 0.0
+  }, {
+    "metricName": "com.google.speed.summary",
+    "floatValue": 0.0
+  }, {
+    "metricName": "com.google.active_minutes",
+    "intValue": 16
+  }]
+}

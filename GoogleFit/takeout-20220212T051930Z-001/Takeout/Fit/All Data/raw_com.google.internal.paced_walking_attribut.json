@@ -1,0 +1,7 @@
+{
+    "Data Source": "raw:com.google.internal.paced_walking_attributes:com.google.android.apps.fitness:paced_walking_attributes",
+    "Data Points": [
+        {"fitValue":[{"blob":{"internalPacedWalkingAttributes":{"targetPace":[{"timeStamp":{"seconds":1641777454,"nanos":899000000},"stepsPerMinute":100}]}}}],"originDataSourceId":"","endTimeNanos":1641777461302000000,"dataTypeName":"com.google.internal.paced_walking_attributes","startTimeNanos":1641777454871000000,"modifiedTimeMillis":1641779197322,"rawTimestampNanos":0},
+        {"fitValue":[{"blob":{"internalPacedWalkingAttributes":{"targetPace":[{"timeStamp":{"seconds":1641777486,"nanos":222000000},"stepsPerMinute":100}]}}}],"originDataSourceId":"","endTimeNanos":1641777506997000000,"dataTypeName":"com.google.internal.paced_walking_attributes","startTimeNanos":1641777486209000000,"modifiedTimeMillis":1641779197322,"rawTimestampNanos":0}
+    ]
+}

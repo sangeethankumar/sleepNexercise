@@ -1,0 +1,55 @@
+date dd-mm-yyyy,day,sleep hours ,start hh:mm AM/PM,end hh:mm AM/PM,deep sleep  ,light sleep ,awake ,REM ,nap,
+20-12-2021,Monday,7h2m,10:46 PM,6:39 AM,01h43m,05h19m,00h51m,,no,rem not activated in watch
+21-12-2021,Tuesday,7h23m,10:26 PM,6:28 AM,01h18m,06h05m,00h39m,,no,rem not activated in watch
+22-12-2021,Wednesday,8h24m,10:04 PM,6:32 AM,01h51m,04h37m,00h04m,01h56m,no,
+23-12-2021,Thursday,7h35m,11:02 PM,6:37 AM,,,,,no,watch data lost
+24-12-2021,Friday,6h41m,11:33 PM,6:14 AM,01h23m,3h21m,00h00m,01h57m,yes,
+25-12-2021,Saturday,5h04m,1:37 AM,6:45 AM,01h12m,02h24m,00h04m,01h28m,yes,
+26-12-2021,Sunday,6h35m,12:22 AM,6:57 AM,01h14m,03h11m,00h00m,02h10m,yes,
+27-12-2021,Monday,9h36m,10:06 PM,8:11 AM,02h08m,04h57m,00h29m,02h31m,yes,
+28-12-2021,Tuesday,7h26m,11:11 PM,7:21 AM,01h28m,05h08m,00h44m,00h50m,no,
+29-12-2021,Wednesday,7h07m,1:26 AM,9:18 AM,01h02m,04h27m,00h16m,02h07m,yes,
+30-12-2021,Thursday,6h40m,1:31 AM,8:27 AM,01h59m,03h50m,00h16m,00h513,yes,P
+31-12-2021,Friday,7h21m,12:09 AM,8:37 AM,01h03m,03h34m,01h07m,02h44m,yes,P
+01-01-2022,Saturday,5h50m,2:05 AM,7:55 AM,01h22m,02h47m,00h00m,01h41m,yes,P
+02-01-2022,Sunday,8h07m,12:40 AM,9:04 AM,01h53m,04h22m,00h17m,01h52m,no,P
+03-01-2022,Monday,6h42m,11:10 PM,5:52 AM,01h48m,03h27m,00h00m,01h27m,no,
+04-01-2022,Tuesday,7h13m,10:42 PM,5:59 AM,01h55m,03h09m,00h04m,02h09m,no,
+05-01-2022,Wednesday,7h03m,10:54 PM,5:57 AM,01h34m,03h52m,00h00m,01h37m,no,
+06-01-2022,Thursday,7h06m,10:55 PM,6:01 AM,01h44m,04h00m,00h00m,01h22m,no,
+07-01-2022,Friday,7h29m,11:08 PM,6:37 AM,02h20m,02h45m,00h00m,02h24m,yes,
+08-01-2022,Saturday,6h50m,11:50 PM,6:40 AM,02h02m,03h51m,00h00m,00h57m,yes,
+09-01-2022,Sunday,6h24m,12:09 AM,7:21 AM,01h31m,03h16m,00h48m,01h37m,yes,
+10-01-2022,Monday,6h39m,11:25 PM,6:14 AM,01h33m,04h16m,00h10m,00h50m,yes,
+11-01-2022,Tuesday,6h20m,11:38 PM,5:58 AM,02h34m,02h38m,00h00m,01h08m,no,
+12-01-2022,Wednesday,7h36m,10:26 PM,6:02 AM,02h03m,04h10m,00h00m,01h23m,no,
+13-01-2022,Thursday,7h31m,10:29 PM,6:00 AM,01h43m,04h19m,00h00m,01h29m,no,
+14-01-2022,Friday,8h18m,11:08 PM,7:26 AM,01h58m,03h55m,00h00m,02h25m,yes,
+15-01-2022,Saturday,6h29m,1:15 AM,7:49 AM,01h42m,02h52m,00h05m,01h55m,yes,
+16-01-2022,Sunday,05h18m,12:57 AM,6:15 AM,01h01m,02h57m,00h00m,01h20m,yes,
+17-01-2022,Monday,06h40m,11:15 PM,5:55 AM,01h19m,04h20m,00h00m,01h01m,yes,
+20-01-2022,Thursday,05h19m,2:12 AM,7:31 AM,01h07m,03h08m,00h00m,01h04m,yes,
+21-01-2022,Friday,06h29m,3:06 AM,9:35 AM,01h22m,03h34m,00h00m,01h33m,yes,
+22-01-2022,Saturday,06h33m,2:27 AM,9:28 AM,01h37m,03h44m,00h28m,01h12m,yes,
+23-01-2022,Sunday,06h27m,3:03 AM,9:30 AM,01h30m,03h26m,00h00m,01h31m,yes,
+24-01-2022,Monday,05h43m,12:00 AM,6:12 AM,00h37m,03h09m,00h29m,01h57m,yes,
+25-01-2022,Tuesday,06h31m,11:13 PM,5:45 AM,01h07m,03h33m,01h01m,01h51m,no,P
+26-01-2022,Wednesday,07h23m,11:11 PM,6:34 AM,01h49m,04h04m,00h00m,01h30m,no,P
+27-01-2022,Thursday,08h07m,11:01 PM,7:08 AM,02h41m,03h17m,00h00m,02h09m,no,P
+28-01-2022,Friday,07h36m,11:24 PM,7:01 AM,02h12m,03h50m,00h01m,01h34m,yes,P
+29-01-2022,Saturday,05h27m,12:46 AM,6:13 AM,01h08m,02h41m,00h00m,01h38m,yes,
+30-01-2022,Sunday,05h26m,1:51 AM,7:17 AM,01h44m,02h29m,00h00m,01h13m,yes,
+31-01-2022,Monday,06h57m,10:53 PM,5:50 AM,01h56m,03h30m,00h00m,01h31m,no,
+01-02-2022,Tuesday,06h21m,10:59 PM,5:20 AM,02h00m,02h38m,00h00m,01h43m,no,
+02-02-2022,Wednesday,07h17m,10:33 PM,5:50 AM,01h36m,03h57m,00h00m,01h44m,no,
+03-02-2022,Thursday,07h25m,10:34 PM,6:03 AM,01h53m,04h09m,00h04m,01h23m,no,
+04-02-2022,Friday,06h37m,11:59 PM,6:36 AM,01h22m,03h26m,00h00m,01h49m,no,
+05-02-2022,Saturday,05h30m,1:26 AM,6:56 AM,01h10m,02h47m,00h00m,01h33m,yes,wrong
+07-02-2022,Monday,07h14m,10:34 PM,6:00 AM,01h20m,03h52m,00h12m,02h02m,no,
+08-02-2022,Tuesday,06h55m,10:42 PM,5:43 AM,01h49m,03h33m,00h00m,01h39m,no,
+09-02-2022,Wednesday,06h27m,11:19 PM,5:46 AM,01h14m,03h29m,00h00m,01h44m,no,
+10-02-2022,Thursday,06h10m,11:57 PM,6:07 AM,01h35m,03h09m,00h00m,01h26m,yes,
+11-02-2022,Friday,07h22m,12:44 AM,8:06 AM,01h17m,04h07m,00h00m,01h58m,yes,
+12-02-2022,Saturday,08h12m,12:20 AM,8:38 AM,01h19m,04h45m,00h06m,02h08m,yes,
+13-02-2022,Sunday,07h38m,12:27 AM,8:05 AM,01h25m,03h50m,00h00m,02h23m,yes,
+14-02-2022,Monday,04h50m,12:41 AM,5:59 AM,01h09m,03h00m,00h28m,00h41m,yes,

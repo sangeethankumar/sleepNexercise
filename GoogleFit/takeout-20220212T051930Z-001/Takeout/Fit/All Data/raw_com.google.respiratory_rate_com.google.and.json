@@ -1,0 +1,6 @@
+{
+    "Data Source": "raw:com.google.respiratory_rate:com.google.android.apps.fitness:user_input",
+    "Data Points": [
+        {"fitValue":[{"value":{"fpVal":11}}],"originDataSourceId":"","endTimeNanos":1639755289854000000,"dataTypeName":"com.google.respiratory_rate","startTimeNanos":1639755289854000000,"modifiedTimeMillis":1639757542274,"rawTimestampNanos":0}
+    ]
+}

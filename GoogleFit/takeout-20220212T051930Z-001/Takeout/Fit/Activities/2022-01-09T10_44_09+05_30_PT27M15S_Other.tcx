@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+    xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+    xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+    xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+    xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1"
+    xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+    <Activities>
+        <Activity Sport="Other">
+            <Id>2022-01-09T05:14:09.000Z</Id>
+            <Lap StartTime="2022-01-09T05:14:09.000Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2022-01-09T05:14:09.000Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>2007.0</DistanceMeters>
+                        <Time>2022-01-09T05:15:00.000Z</Time>
+                        <HeartRateBpm>
+                            <Value>97.0</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>2007.0</DistanceMeters>
+                        <Time>2022-01-09T05:20:00.000Z</Time>
+                        <HeartRateBpm>
+                            <Value>132.0</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>2007.0</DistanceMeters>
+                        <Time>2022-01-09T05:25:00.000Z</Time>
+                        <HeartRateBpm>
+                            <Value>125.0</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>2007.0</DistanceMeters>
+                        <Time>2022-01-09T05:30:00.000Z</Time>
+                        <HeartRateBpm>
+                            <Value>147.0</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>2007.0</DistanceMeters>
+                        <Time>2022-01-09T05:35:00.000Z</Time>
+                        <HeartRateBpm>
+                            <Value>148.0</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>2007.0</DistanceMeters>
+                        <Time>2022-01-09T05:40:00.000Z</Time>
+                        <HeartRateBpm>
+                            <Value>143.0</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>2007.0</DistanceMeters>
+                        <Time>2022-01-09T05:41:24.000Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>2007.0</DistanceMeters>
+                <TotalTimeSeconds>1635.0</TotalTimeSeconds>
+                <Calories>253.0</Calories>
+                <AverageHeartRateBpm>
+                    <Value>132.0</Value>
+                </AverageHeartRateBpm>
+                <MaximumHeartRateBpm>
+                    <Value>148.0</Value>
+                </MaximumHeartRateBpm>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Google Fit</Name>
+        <Build>
+            <Version>
+                <VersionMajor>0</VersionMajor>
+                <VersionMinor>0</VersionMinor>
+                <BuildMajor>0</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+        </Build>
+        <LangID>en</LangID>
+        <PartNumber>000-00000-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>

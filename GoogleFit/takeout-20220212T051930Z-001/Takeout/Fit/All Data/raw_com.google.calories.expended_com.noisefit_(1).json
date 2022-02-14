@@ -1,0 +1,17 @@
+{
+    "Data Source": "raw:com.google.calories.expended:com.noisefit:noise_activity- Calories",
+    "Data Points": [
+        {"fitValue":[{"value":{"fpVal":272}}],"originDataSourceId":"","endTimeNanos":1639745996000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1639744740000000000,"modifiedTimeMillis":1639746871309,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":312}}],"originDataSourceId":"","endTimeNanos":1639753409000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1639751100000000000,"modifiedTimeMillis":1639755139204,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":4}}],"originDataSourceId":"","endTimeNanos":1639799704000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1639799640000000000,"modifiedTimeMillis":1639805252566,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":117}}],"originDataSourceId":"","endTimeNanos":1639803062000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1639802160000000000,"modifiedTimeMillis":1639805252566,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":22}}],"originDataSourceId":"","endTimeNanos":1639803418000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1639803180000000000,"modifiedTimeMillis":1639805252566,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":125}}],"originDataSourceId":"","endTimeNanos":1639804024000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1639803420000000000,"modifiedTimeMillis":1639805252566,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":461}}],"originDataSourceId":"","endTimeNanos":1639834902000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1639831560000000000,"modifiedTimeMillis":1639887499711,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":386}}],"originDataSourceId":"","endTimeNanos":1639917828000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1639915380000000000,"modifiedTimeMillis":1639935523094,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":414}}],"originDataSourceId":"","endTimeNanos":1640001863000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1639999980000000000,"modifiedTimeMillis":1640005668422,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":356}}],"originDataSourceId":"","endTimeNanos":1640052444000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1640050140000000000,"modifiedTimeMillis":1640056733316,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":249}}],"originDataSourceId":"","endTimeNanos":1640086863000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1640085660000000000,"modifiedTimeMillis":1640089317824,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":281}}],"originDataSourceId":"","endTimeNanos":1640137817000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1640136240000000000,"modifiedTimeMillis":1640141920302,"rawTimestampNanos":0}
+    ]
+}
