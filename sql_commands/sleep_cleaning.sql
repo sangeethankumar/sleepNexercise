@@ -112,11 +112,14 @@ FROM sleep -- unit test
 /*
 output data
 */
-SELECT
-	TO_DATE(date,'DD-MM-YYYY') as date,
-	TO_NUMBER(SPLIT_PART(sleephours,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(sleephours,'h',2),1,LENGTH(SPLIT_PART(sleephours,'h',2))-1),'99') AS sleeptime,
-	TO_NUMBER(SPLIT_PART(deep,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(deep,'h',2),1,LENGTH(SPLIT_PART(deep,'h',2))-1),'99') AS deeptime,
-	TO_NUMBER(SPLIT_PART(light,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(light,'h',2),1,LENGTH(SPLIT_PART(light,'h',2))-1),'99') AS lighttime,
-	TO_NUMBER(SPLIT_PART(awake,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(awake,'h',2),1,LENGTH(SPLIT_PART(awake,'h',2))-1),'99') AS awaketime,	
-	TO_NUMBER(SPLIT_PART(rem,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(rem,'h',2),1,LENGTH(SPLIT_PART(rem,'h',2))-1),'99') AS remtime	
-FROM sleep -- output to csv from table
+COPY
+	(SELECT
+		TO_DATE(date,'DD-MM-YYYY') as date,
+		TO_NUMBER(SPLIT_PART(sleephours,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(sleephours,'h',2),1,LENGTH(SPLIT_PART(sleephours,'h',2))-1),'99') AS sleeptime,
+		TO_NUMBER(SPLIT_PART(deep,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(deep,'h',2),1,LENGTH(SPLIT_PART(deep,'h',2))-1),'99') AS deeptime,
+		TO_NUMBER(SPLIT_PART(light,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(light,'h',2),1,LENGTH(SPLIT_PART(light,'h',2))-1),'99') AS lighttime,
+		TO_NUMBER(SPLIT_PART(awake,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(awake,'h',2),1,LENGTH(SPLIT_PART(awake,'h',2))-1),'99') AS awaketime,	
+		TO_NUMBER(SPLIT_PART(rem,'h',1),'99')*60 + TO_NUMBER(SUBSTR(SPLIT_PART(rem,'h',2),1,LENGTH(SPLIT_PART(rem,'h',2))-1),'99') AS remtime	
+	FROM sleep)
+TO '/home/sangeetha/Personal/Projects/sleep_qlty_mon/data/data_after_merging/sleep.csv' DELIMITER ',' NULL AS '' CSV HEADER;
+

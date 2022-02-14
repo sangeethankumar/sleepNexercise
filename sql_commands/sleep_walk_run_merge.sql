@@ -132,7 +132,7 @@ COPY
 		ON swclean.date = rclean.date
 		ORDER BY swclean.date ASC
 	)
-TO '/tmp/sleep_walk_run.csv' DELIMITER ',' NULL AS '' CSV HEADER ;
+TO '/home/sangeetha/Personal/Projects/sleep_qlty_mon/data/data_after_merging/sleep_walk_run.csv' DELIMITER ',' NULL AS '' CSV HEADER ;
 
 
 

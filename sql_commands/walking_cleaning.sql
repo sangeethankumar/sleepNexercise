@@ -38,14 +38,16 @@ FROM walking; --unit test
 /*
 output data
 */
-SELECT 
-	TO_DATE(date,'DD-MM-YYYY') as date,
-	ROUND(TO_NUMBER(SUBSTRING(duration,1,1),'99')*60 + TO_NUMBER(SUBSTRING(duration,3,2),'99') + TO_NUMBER(SUBSTRING(duration,6,2),'99')/60) AS duration,
-	calories,
-	avgspeed,
-	avghr,
-	aerobic,
-	anaerobic,
-	fatburn,
-	warmup
-FROM walking;
+COPY
+ (SELECT 
+	 TO_DATE(date,'DD-MM-YYYY') as date,
+	 ROUND(TO_NUMBER(SUBSTRING(duration,1,1),'99')*60 + TO_NUMBER(SUBSTRING(duration,3,2),'99') + TO_NUMBER(SUBSTRING(duration,6,2),'99')/60) AS duration,
+	 calories,
+	 avgspeed,
+	 avghr,
+	 aerobic,
+	 anaerobic,
+	 fatburn,
+	 warmup
+ FROM walking)
+TO '/home/sangeetha/Personal/Projects/sleep_qlty_mon/data/data_after_merging/walk.csv' DELIMITER ',' NULL AS '' CSV HEADER;
